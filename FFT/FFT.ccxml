@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations XML_version="1.2" id="configurations_0">
+<instance XML_version="1.2" desc="C6421 Device Cycle Accurate Simulator, Little Endian" href="configurations/tisim_c6421le.xml" id="C6421 Device Cycle Accurate Simulator, Little Endian" xml="tisim_c6421le.xml" xmlpath="configurations"/>
+    <configuration XML_version="1.2" description="Simulates the cycle accure C64x+ core, Megamodule (L1P Program Cache,  L1D Data cache, L2 Unified Mapped RAM/Cache, L2 ROM), SCR, EDMA, McBSP(1), Timer(3), EMIF and external memory. Does not model EMAC, HPI, UART, I2C and VLYNQ. This is a device cycle accurate configuration and hence useful for applications development and benchmarking at the device level. &#10; Note on other configurations for this processor: &#10; * For core level algorithm development / benchmarking, it is recommended to use the &quot;C64x+ CPU Cycle Accurate Simulator&quot; for faster simulations than the device configuration. &#10; * For Megamodule level algorithm development/ benchmarking, it is recommended to use the &quot;C64x+ Megamodule Cycle Accurate Simulator&quot;, as this will be faster than the device simulator. " id="C6421 Device Cycle Accurate Simulator, Little Endian">
+        <connection XML_version="1.2" desc="C6421 Device Cycle Accurate Simulator, Little Endian_0" id="C6421 Device Cycle Accurate Simulator, Little Endian"/>
+    </configuration>
+</configurations>
